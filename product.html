@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+    <link rel="stylesheet" href="./style.css">
+
+    
+
+</head>
+<body>
+
+    <button onclick="show_form()"> + Add Product </button>
+    <form id="product_form" style="margin-top: 5%;">
+        <div><center><input type="text" placeholder="Enter product name" id="product_name"></center></div> 
+        <div><center><input type="text" placeholder="Enter product price" id="product_price"></center></div>    
+        <div><center><input type="text" placeholder="Enter Product Image link" id="product_image"></center></div>
+        <div><center><input type="text" placeholder="Enter product brand" id="product_brand"></center></div>
+        <div><center><input type="text" placeholder="Enter Product review"  id="product_review"></center></div>
+        <div><center><input type="text" placeholder="Enter Product Rating" id="product_rating"></center></div>
+        <div><center><button onclick="return addproduct()">Add Product</button></center></div>    
+    </form>
+
+    <script src="./product.js"></script>
+     
+</body>
+</html>

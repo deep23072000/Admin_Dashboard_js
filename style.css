@@ -1,4 +1,4 @@
-#login{
+#product_form{
     padding: 30px;
     margin-left: auto;
     margin-right: auto;
@@ -7,14 +7,18 @@
     box-shadow: 0px 0px 40px palevioletred;
     border-radius: 10px;
     margin-top: 10%;
+    position: absolute;
+    top: 5%;
+    margin-left: 40%;
+    margin-right: 40%;
 }
 
 body{
-    background-color: black;
+    /* background-color: black; */
 }
 
 
-#login div input{
+#product_form div input{
     width: 300px;
     margin: 20px;
     padding: 5px;
@@ -28,7 +32,7 @@ body{
 }
 
 
-#login div button{
+#product_form div button{
     width: 300px;
     margin: 30px 10px 10px 10px;
     padding: 10px;
@@ -39,11 +43,11 @@ body{
     background-color: black;
 }
 
-#login div input::placeholder{
+#product_form div input::placeholder{
     color: palevioletred;
 }
 
-#login div input:focus{
+#product_form div input:focus{
     scale: 1.1;
     transition: scale .2s;
 }
@@ -53,4 +57,10 @@ body{
     display: flex;
     padding:0px 30px 0px 30px;
     margin-top: -10px;
+}
+
+/* ==============show form css========= */
+
+#product_form{
+    display: none;
 }
