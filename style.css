@@ -11,6 +11,8 @@
     top: 5%;
     margin-left: 40%;
     margin-right: 40%;
+    background-color: black;
+    z-index: 10;
 }
 
 body{
@@ -63,4 +65,10 @@ body{
 
 #product_form{
     display: none;
+}
+/* ===========table data product====== */
+
+#showproductdata tr {
+    height: 50px;
+    overflow-y: scroll;
 }

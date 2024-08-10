@@ -26,6 +26,8 @@ const addproduct = ()=>{
           body:JSON.stringify(product)
      }
      fetch(url,method);
+     let selectbg = document.querySelector('#website');
+     selectbg.style.filter = "none"
      return false;
 }
 
@@ -33,6 +35,38 @@ const addproduct = ()=>{
 
 const show_form = ()=>{
      let select = document.querySelector('#product_form');
-     select.style.display = "block"
+     select.style.display = "block";
+     let selectbg = document.querySelector('#website');
+     selectbg.style.filter = "blur(5px)"
 }
+
+
+//IIFE
+(async function(){
+     let url = 'http://localhost:4000/product';
+     let data =await fetch(url);
+     let response =await data.json();
+
+     console.log(response);
+     document.querySelector('#showproductdata').innerHTML = response.map(e=>`
+          <tr>
+          <td>${e.product_name}</td>
+          <td>${e.product_price}</td>
+          <td><img width="70px" src="${e.product_image}"></td>
+          <td>${e.product_brand}</td>
+          <td>${e.product_review}</td>
+          <td>${e.product_rating}</td>
+          </tr>
+          `).join(" ");
+
+     //
+})();
+
+// async function show1(){
+
+// }
+
+// const show2 = async ()=>{
+
+// }
 
