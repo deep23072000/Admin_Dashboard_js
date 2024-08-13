@@ -1,34 +1,7 @@
 {
   "product": [
     {
-      "id": "42c9",
-      "product_name": "Shoes",
-      "product_price": "1000",
-      "product_image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/99486859-0ff3-46b4-949b-2d16af2ad421/custom-nike-dunk-high-by-you-shoes.png",
-      "product_brand": "fake",
-      "product_review": "kaam chalayu",
-      "product_rating": "3"
-    },
-    {
-      "id": "b868",
-      "product_name": "shoes",
-      "product_price": "1999",
-      "product_image": "https://www.tracerindia.com/cdn/shop/files/1_a435560c-9b5e-4e7d-b1f4-4d81ecd11c85.jpg?v=1702054676&width=1445",
-      "product_brand": "touch",
-      "product_review": "mast he bhai le lo value for moneyLorem ipsum dolor sit amet consectetur adipisicing elit. Debitis distinctio, fugiat pariatur necessitatibus magnam iste! Quam, veniam quod, eos quibusdam, sint itaque ipsa mollitia soluta dolor aspernatur labore expedita quidem.Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis distinctio, fugiat pariatur necessitatibus magnam iste! Quam, veniam quod, eos quibusdam, sint itaque ipsa mollitia soluta dolor aspernatur labore expedita quidem.Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis distinctio, fugiat pariatur necessitatibus magnam iste! Quam, veniam quod, eos quibusdam, sint itaque ipsa mollitia soluta dolor aspernatur labore expedita quidem.Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis distinctio, fugiat pariatur necessitatibus magnam iste! Quam, veniam quod, eos quibusdam, sint itaque ipsa mollitia soluta dolor aspernatur labore expedita quidem.",
-      "product_rating": "4.6"
-    },
-    {
-      "id": "a5cf",
-      "product_name": "shoes",
-      "product_price": "599",
-      "product_image": "https://www.tracerindia.com/cdn/shop/files/1_a435560c-9b5e-4e7d-b1f4-4d81ecd11c85.jpg?v=1702054676&width=1445",
-      "product_brand": "touch",
-      "product_review": "sorry",
-      "product_rating": "1.2"
-    },
-    {
-      "id": "814a",
+      "id": "4",
       "product_name": "shoes",
       "product_price": "299",
       "product_image": "https://www.tracerindia.com/cdn/shop/files/1_a435560c-9b5e-4e7d-b1f4-4d81ecd11c85.jpg?v=1702054676&width=1445",

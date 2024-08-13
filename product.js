@@ -41,6 +41,10 @@ const show_form = ()=>{
 }
 
 
+
+
+
+
 //IIFE
 (async function(){
      let url = 'http://localhost:4000/product';
@@ -56,11 +60,45 @@ const show_form = ()=>{
           <td>${e.product_brand}</td>
           <td>${e.product_review}</td>
           <td>${e.product_rating}</td>
+          <td onclick="del('${e.id}')"><i  class="fa fa-trash" aria-hidden="true"></i></td>
+          <td onclick="upd('${e.id}')"> <i class="fa-solid fa-pen"></i></td>
           </tr>
+          
           `).join(" ");
 
      //
 })();
+
+function del(arg){
+     console.log(arg);
+     let url = `http://localhost:4000/product/${arg}`;
+     let method = {
+       method:"DELETE"
+     }
+     fetch(url,method)
+ 
+ }
+
+ async function upd(arg){
+     let data = await fetch(`http://localhost:4000/product/${arg}`);
+     let response = await data.json();
+     console.log(response)
+     let select = document.querySelector('#product_form');
+     select.style.display = "block";
+     document.querySelector('#product_name').value = response.product_name;
+     document.querySelector('#product_price').value = response.product_price;
+     document.querySelector('#product_image').value = response.product_image;
+     document.querySelector('#product_brand').value = response.product_brand;
+     document.querySelector('#product_review').value = response.product_review;
+     document.querySelector('#product_rating').value = response.product_rating;
+
+}
+
+
+// ====================delete=====================
+
+
+
 
 // async function show1(){
 
