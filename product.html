@@ -3,15 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Product</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="./home.css">
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-    
-
 </head>
 <body>
+    <aside id="asidetag">
+        <ul>
+            <li><img src="https://t3.ftcdn.net/jpg/06/12/00/18/360_F_612001823_TkzT0xmIgagoDCyQ0yuJYEGu8j6VNVYT.jpg" alt=""></li>
+            <li ><a id="n" href="#"> Dashboard </a></li>
+            <li ><a href="#"> Analatics </a></li>
+            <li ><a href="#"> User </a></li>
+            <li ><a href="#"> Product </a></li>
+            <li ><a href="#"> Employees </a></li>
+            <li ><a href="#"> Record </a></li>
+            <li ><a href="#"> Setting </a></li>
+            <li ><a href="#"> Logout </a></li>
+        </ul>
+    </aside>
 
+
+
+    <!-- ======================== -->
+
+    <center><div id="topnav"> Dashboard </div></center>
+    <!-- ==============content========== -->
     <form id="product_form" style="margin-top: 5%;">
         <div><center><input type="text" placeholder="Enter product name" id="product_name"></center></div> 
         <div><center><input type="text" placeholder="Enter product price" id="product_price"></center></div>    
@@ -19,7 +36,10 @@
         <div><center><input type="text" placeholder="Enter product brand" id="product_brand"></center></div>
         <div><center><input type="text" placeholder="Enter Product review"  id="product_review"></center></div>
         <div><center><input type="text" placeholder="Enter Product Rating" id="product_rating"></center></div>
-        <div><center><button onclick="return addproduct()">Add Product</button></center></div>    
+        <div><center>
+            <button onclick="return addproduct()" id="addbutton">Add Product</button>
+            <button onclick="updateproduct()" id="updatebutton">Update Product</button>
+        </center></div>    
     </form>
     
      <section id="website">
@@ -27,11 +47,11 @@
 
     <button onclick="show_form()"> + Add Product </button>
     
-    <table width="80%" border="2px" align="center" cellpadding="10px" cellspacing="10px" id="showproductdata"></table>
+    <table width="70%" border="2px" align="center" cellpadding="10px" cellspacing="10px" id="showproductdata"></table>
 
     </section>
 
     <script src="./product.js"></script>
-     
+    
 </body>
 </html>
