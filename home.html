@@ -11,7 +11,7 @@
 <body>
     <aside id="asidetag">
         <ul>
-            <li><img src="https://t3.ftcdn.net/jpg/06/12/00/18/360_F_612001823_TkzT0xmIgagoDCyQ0yuJYEGu8j6VNVYT.jpg" alt=""></li>
+            <li><img id="logo" src="https://t3.ftcdn.net/jpg/06/12/00/18/360_F_612001823_TkzT0xmIgagoDCyQ0yuJYEGu8j6VNVYT.jpg" alt=""></li>
             <li ><a id="n" href="#"> Dashboard </a></li>
             <li ><a href="#"> Analatics </a></li>
             <li ><a href="#"> User </a></li>
@@ -19,7 +19,7 @@
             <li ><a href="#"> Employees </a></li>
             <li ><a href="#"> Record </a></li>
             <li ><a href="#"> Setting </a></li>
-            <li ><a href="#"> Logout </a></li>
+            <li ><a href="#" > Logout </a></li>
         </ul>
     </aside>
 
@@ -30,6 +30,11 @@
     <center><div id="topnav"> Dashboard </div></center>
     <!-- ==============content========== -->
     
-    
+    <script>
+        let logininfo = window.localStorage.getItem('logininfo');
+        let loginingfo1 = JSON.parse(logininfo);
+        let select = document.querySelector('#logo');
+        select.src =loginingfo1.img; 
+    </script>
 </body>
 </html>

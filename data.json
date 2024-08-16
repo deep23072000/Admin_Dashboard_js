@@ -18,5 +18,34 @@
       "product_rating": "5",
       "id": "b5e7"
     }
+  ],
+  "registration": [
+    {
+      "id": "2341",
+      "name": "Deepak",
+      "email": "dp089901@gmail.com",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqGK3diR3Zi-mnOXEaj-3ewmFyRYVxGzVzZw&s",
+      "mobile": "9876543213",
+      "password": "1234",
+      "cpassword": "1234"
+    },
+    {
+      "id": "9a36",
+      "name": "Abhay",
+      "email": "abhay@gmail.com",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqGK3diR3Zi-mnOXEaj-3ewmFyRYVxGzVzZw&s",
+      "mobile": "1234567890",
+      "password": "1234",
+      "cpassword": "1234"
+    },
+    {
+      "id": "eec6",
+      "name": "mandeep",
+      "email": "mandeep@gmail.com",
+      "img": "https://stimg.cardekho.com/images/carexteriorimages/930x620/Maruti/Jimny/6182/1686117643111/front-left-side-47.jpg?impolicy=resize&imwidth=420",
+      "mobile": "0987654321",
+      "password": "1234",
+      "cpassword": "1234"
+    }
   ]
 }
