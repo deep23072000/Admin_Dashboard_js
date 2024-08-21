@@ -10,7 +10,7 @@ const login = async()=>{
     if(finddata){
         window.alert("user exist");
         window.localStorage.setItem('logininfo',JSON.stringify(finddata))
-        window.location.href = "home.html";
+        document.location.href = "home.html";
     }
       else{
         window.alert("please register first")

@@ -1,19 +1,10 @@
 {
   "product": [
     {
-      "product_name": "shoes",
-      "product_price": "249",
-      "product_image": "https://www.tracerindia.com/cdn/shop/files/1_a435560c-9b5e-4e7d-b1f4-4d81ecd11c85.jpg?v=1702054676&width=1445",
-      "product_brand": "touch",
-      "product_review": "bekar he use karne baat pata chal",
-      "product_rating": "4.5",
-      "id": "4"
-    },
-    {
       "product_name": "shjcc",
       "product_price": "2200",
       "product_image": "https://images.pexels.com/photos/292999/pexels-photo-292999.jpeg?cs=srgb&dl=pexels-goumbik-292999.jpg&fm=jpg",
-      "product_brand": "touch",
+      "product_brand": "lakhani",
       "product_review": "sasta he pr accha he",
       "product_rating": "5",
       "id": "b5e7"
@@ -26,6 +17,15 @@
       "product_review": "accha hai",
       "product_rating": "4.3",
       "id": "a24d"
+    },
+    {
+      "id": "751a",
+      "product_name": "shoes",
+      "product_price": "2200",
+      "product_image": "https://m.media-amazon.com/images/I/91YcEQhsVQL._SX679_.jpg",
+      "product_brand": "touch",
+      "product_review": "sasta he pr accha he",
+      "product_rating": "5"
     }
   ],
   "registration": [
@@ -53,6 +53,24 @@
       "email": "mandeep@gmail.com",
       "img": "https://stimg.cardekho.com/images/carexteriorimages/930x620/Maruti/Jimny/6182/1686117643111/front-left-side-47.jpg?impolicy=resize&imwidth=420",
       "mobile": "0987654321",
+      "password": "1234",
+      "cpassword": "1234"
+    },
+    {
+      "id": "fa71",
+      "name": "Deepak",
+      "email": "abhay@gmail.com",
+      "img": "https://stimg.cardekho.com/images/carexteriorimages/930x620/Maruti/Jimny/6182/1686117643111/front-left-side-47.jpg?impolicy=resize&imwidth=420",
+      "mobile": "9876543213",
+      "password": "1234",
+      "cpassword": "1234"
+    },
+    {
+      "id": "4c06",
+      "name": "lareb",
+      "email": "lareb@gmai.com",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqGK3diR3Zi-mnOXEaj-3ewmFyRYVxGzVzZw&s",
+      "mobile": "1234567890",
       "password": "1234",
       "cpassword": "1234"
     }

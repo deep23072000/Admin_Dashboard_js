@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body>
+<body onload="analytics()">
     <aside id="asidetag">
         <ul>
             <li><img id="logo" src="https://t3.ftcdn.net/jpg/06/12/00/18/360_F_612001823_TkzT0xmIgagoDCyQ0yuJYEGu8j6VNVYT.jpg" alt=""></li>
@@ -29,6 +29,14 @@
 
     <center><div id="topnav"> Dashboard  </div></center>
     <!-- ==============content========== -->
+
+    <section id="Analatics1">
+        <div id="cuser"></div>
+        <div></div>
+        <div></div>
+    </section>
+
+    <!-- ======================================== -->
     
     <script>
         let logininfo = window.localStorage.getItem('logininfo');
@@ -36,5 +44,7 @@
         let select = document.querySelector('#logo');
         select.src =loginingfo1.img; 
     </script>
+
+    <script src="./home.js"></script>
 </body>
 </html>
